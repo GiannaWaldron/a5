@@ -1,0 +1,22 @@
+a:hover {
+    color: blue;
+}
+p {
+    margin: 50px;
+    color: blue;
+    font-family: Helvetica, sans-serif;
+    font-weight: thin;
+    position: center;
+    margin-left: 250px;
+    margin-top: 400px;
+    font-size: 100px;
+}
+img{
+    position:center;
+    margin: 500px;
+    max-height: 500px;
+}
+.gif{
+    margin-left:500px;
+
+}
