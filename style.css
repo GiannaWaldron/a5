@@ -6,17 +6,31 @@ a{
 }
 h1{
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-shadow:1px 1px 10px rgb(214, 23, 23), 1px 1px 10px rgb(245, 241, 241);
+}
+h3{
+    font-size: 70px;
+    text-align: center ;
+    margin-top: 420px;
 }
 p {
     margin: 50px;
     color: blue;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: thin;
 }
 img{
+    text-align: right;
     margin-left:570px;
     width: 30%;
+}
+.artist{
+    text-align: right;
+    margin: 0px;
+}
+.gif{
+    text-align: right;
 }
