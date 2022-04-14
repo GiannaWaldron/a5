@@ -3,9 +3,11 @@ a:hover {
 }
 a{
     color: blue;
+    z-index:1;
 }
 h1{
     font-size: 50px;
+    z-index: 3;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow:1px 1px 10px rgb(214, 23, 23), 1px 1px 10px rgb(245, 241, 241);
@@ -14,6 +16,7 @@ h3{
     font-size: 70px;
     text-align: center ;
     margin-top: 420px;
+    z-index: 3;
 }
 p {
     margin: 50px;
@@ -28,9 +31,13 @@ img{
     width: 30%;
 }
 .artist{
-    text-align: right;
-    margin: 0px;
+    margin-left: 800px;
+    z-index:4;
+    margin-top: 200px;
+    position: fixed;
 }
-.gif{
-    text-align: right;
+.links{
+    text-align: left;
+    z-index: 3;;
+    position: fixed;
 }
