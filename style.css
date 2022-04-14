@@ -13,7 +13,7 @@ h1{
     text-shadow:1px 1px 10px rgb(214, 23, 23), 1px 1px 10px rgb(245, 241, 241);
 }
 h3{
-    font-size: 70px;
+    font-size: 90px;
     text-align: center ;
     margin-top: 420px;
     z-index: 3;
@@ -28,10 +28,10 @@ p {
 img{
     text-align: right;
     margin-left:570px;
-    width: 30%;
+    width: 35%;
 }
 .artist{
-    margin-left: 800px;
+    margin-left: 700px;
     z-index:4;
     margin-top: 200px;
     position: fixed;
