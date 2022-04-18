@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>Pokedex</title>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="dex.css"> 
+    <script type = "text/javascript">
+            if(document.images) {
+               var image1 = new Image();
+               image1.src = "fire.png";
+               var image2 = new Image();
+               image2.src = "openfire.png";
+            }
+      </script>
+    </head>
+<body>
+      <a href = "#" onMouseOver = "document.myImage.src = image2.src;"
+         onMouseOut = "document.myImage.src = image1.src;">
+         <img name = "myImage" src = "/images/html.gif" />
+      </a>
